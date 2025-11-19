@@ -16,3 +16,8 @@ use App\Http\Controllers\PageController;
 
 Route::get('/', [PageController::class, 'homePage']) ->name('home.page');
 Route::get('/about', [PageController::class, 'aboutPage']) ->name('about.page');
+Route::get('/contact', [PageController::class, 'contactPage']) ->name('contact.page');
+Route::get('/news', [PageController::class, 'newsPage']) ->name('news.page');
+Route::get('/gallery', [PageController::class, 'galleryPage']) ->name('gallery.page');
+Route::get('/staff', [PageController::class, 'staffPage']) ->name('staff.page');
+
